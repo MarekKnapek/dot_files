@@ -1,0 +1,5 @@
+Main Menu -> Preferences -> Settings
+
+{
+	"auto_find_in_selection": true,
+}
