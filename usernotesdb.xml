@@ -8,4 +8,5 @@
 	<object tag="1" name="Tracker.exe" priorityclass="5"/><!-- priority below normal -->
 	<object tag="1" name="msedgewebview2.exe" priorityclass="1" iopriorityplusone="1" pagepriorityplusone="2"/><!-- priority idle, io priority very low, page priority very low -->
 	<object tag="1" name="vcpkgsrv.exe" priorityclass="1" iopriorityplusone="1" pagepriorityplusone="2"/><!-- priority idle, io priority very low, page priority very low -->
+	<object tag="1" name="TiWorker.exe" priorityclass="1" iopriorityplusone="1" pagepriorityplusone="2"/><!-- priority idle, io priority very low, page priority very low -->
 </objects>
