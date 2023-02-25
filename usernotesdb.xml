@@ -1,5 +1,5 @@
 <objects>
-	<object tag="3" name="C:\Windows\System32\svchost.exe -k termsvcs -s TermService" priorityclass="6"/><!-- priority above normal -->
+	<object tag="3" name="C:\Windows\System32\svchost.exe -k termsvcs -s TermService" priorityclass="3"/><!-- priority high -->
 	<object tag="1" name="perfmon.exe" priorityclass="5" iopriorityplusone="2" pagepriorityplusone="5"/><!-- priority below normal, io priority low, page priority below normal -->
 	<object tag="1" name="cc1.exe" priorityclass="5"/><!-- priority below normal -->
 	<object tag="1" name="cl.exe" priorityclass="5"/><!-- priority below normal -->
