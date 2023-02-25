@@ -1,1 +1,0 @@
-_NT_SYMBOL_PATH=SRV*C:\dev\symbols*https://msdl.microsoft.com/download/symbols
