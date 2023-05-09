@@ -1,0 +1,1 @@
+Start -> Ease of Access -> Display -> Automatically hide scroll bars in Windows -> off
