@@ -2,8 +2,13 @@ Main Menu -> Preferences -> Settings
 
 {
 	"auto_find_in_selection": true,
+	"copy_with_empty_selection": false,
+	"ensure_newline_at_eof_on_save": false,
 	"font_size": 11,
 	"highlight_line": true,
+	"ignored_snippets": [ "C++/*" ],
+	"show_definitions": false,
 	"tab_size": 2,
+	"trim_trailing_white_space_on_save": "all",
 	"word_wrap": false,
 }
