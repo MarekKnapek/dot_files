@@ -1,0 +1,13 @@
+Install-WindowsFeature -Name RSAT-Hyper-V-Tools
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Management-PowerShell
+Mount-VHD –Path "c:\dev\mkdisk.vhd"
+Dismount-VHD –Path "c:\dev\mkdisk.vhd"
+
+
+
+
+
+https://www.altaro.com/hyper-v/install-hyper-v-powershell-module/
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V
+Install-WindowsFeature -Name Hyper-V -IncludeManagementTools
+Install-WindowsFeature -Name Hyper-V, RSAT-Hyper-V-Tools
