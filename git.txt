@@ -2,3 +2,5 @@ git config --local core.autocrlf false
 git config --local user.name "Marek Knápek"
 git config --local user.email knapek.mar@gmail.com
 git config --global --add safe.directory "*"
+git config --global --unset credential.helper
+git config --global credential.helper manager
