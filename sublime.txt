@@ -5,11 +5,30 @@ Main Menu -> Preferences -> Settings
 	"color_scheme": "Monokai.sublime-color-scheme",
 	"copy_with_empty_selection": false,
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 11,
+	"font_options": [ "directwrite", "subpixel_antialias"],
 	"highlight_line": true,
+	"ignored_packages": [ "ElasticTabstops_", "Vintage"],
 	"ignored_snippets": [ "C++/*"],
 	"show_definitions": false,
 	"tab_size": 2,
 	"trim_trailing_white_space_on_save": "all",
 	"word_wrap": false,
+}
+
+
+Main Menu -> Preferences -> Customize Color Scheme
+
+{
+	"variables":
+	{
+		"black": "#000000",
+		"black2": "#000000",
+		"black3": "#000000",
+	},
+	"globals":
+	{
+	},
+	"rules":
+	[
+	]
 }
