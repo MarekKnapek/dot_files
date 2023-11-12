@@ -78,10 +78,12 @@ NTFS Volume free
 That is 160 GB minus 8 GB minus 92 MB minus 72 kB.
 
 
+mklink /j c:\dev\mnt\vc\k \\.\GLOBALROOT\Device\VeraCryptVolumeK\
 mklink /j c:\dev\mnt\vc\k \\.\Volume{6a17de96-1604-11ee-a6be-c78b5964f66d}\
 mklink /j c:\dev\mnt\vc\l \\.\Volume{3203d3ec-17a0-11ee-a6c2-b31f8521f0f8}\
 mklink /j c:\dev\mnt\mkdisk2 \\.\Volume{fd0545a7-7bf2-4d5c-98c3-884dadf85c69}\
 mklink /d tsclient_c \\tsclient\c\
+format c:\dev\mnt\vc\k /fs:exfat /q /a:64k
 format c:\dev\mnt\mkdisk2 /fs:ntfs /a:4096 /c /q /y
 chkdsk c:\dev\mnt\mkdisk2
 mklink /j 5 \\.\HarddiskVolumeShadowCopy5\
