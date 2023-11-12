@@ -152,8 +152,8 @@
 <setting name="MiniInfoWindowSize">@96|315,200</setting>
 <setting name="ModuleTreeListFlags">d5e1</setting>
 <setting name="ModuleTreeListColumns">@96|0,0,408|1,1,138|2,2,63|3,3,160|5,7,239|7,6,80|8,4,65|15,5,124|23,8,833</setting>
-<setting name="ModuleTreeListSort">0,1</setting>
-<setting name="NetworkTreeListColumns">@96|0,0,158|1,1,120|2,2,159|3,3,65|4,4,229|5,6,45|6,7,71|7,8,80|10,5,96|+ProcessHacker.ExtendedTools+12,10,75|+ProcessHacker.ExtendedTools+13,9,71|+ProcessHacker.ExtendedTools+14,11,76</setting>
+<setting name="ModuleTreeListSort">1,1</setting>
+<setting name="NetworkTreeListColumns">@96|0,0,158|1,1,120|2,2,159|3,3,65|4,4,216|5,6,45|6,7,71|7,8,80|11,5,120|+ProcessHacker.ExtendedTools+12,10,75|+ProcessHacker.ExtendedTools+13,9,71|+ProcessHacker.ExtendedTools+14,11,76</setting>
 <setting name="NetworkTreeListSort">+ProcessHacker.ExtendedTools+14,2</setting>
 <setting name="NonPollFlushInterval">a</setting>
 <setting name="NoPurgeProcessRecords">0</setting>
@@ -212,8 +212,8 @@
 <setting name="SysInfoWindowSize">@96|1038,742</setting>
 <setting name="SysInfoWindowState">3</setting>
 <setting name="ThinRows">0</setting>
-<setting name="ThreadTreeListColumns">@96|0,0,50|1,1,45|2,2,84|3,3,191|4,4,49|5,17,100|6,7,100|11,6,19|12,5,26|16,14,112|17,12,78|18,11,78|23,16,50|24,15,50|25,8,163|26,9,100|33,10,127|34,13,78</setting>
-<setting name="ThreadTreeListSort">0,1</setting>
+<setting name="ThreadTreeListColumns">@96|0,0,50|1,1,45|2,2,84|3,3,191|4,4,49|5,17,100|6,7,100|11,6,19|12,5,26|16,14,112|17,12,78|18,11,78|23,16,50|24,15,50|25,8,180|26,9,100|33,10,127|34,13,78</setting>
+<setting name="ThreadTreeListSort">3,1</setting>
 <setting name="ThreadTreeListFlags">60</setting>
 <setting name="ThreadStackTreeListColumns">@96|0,0,30|1,1,494|2,8,100|3,5,100|4,9,100|5,10,100|6,11,108|7,12,108|8,13,110|9,7,100|10,4,329|11,3,282|12,2,30|13,6,100</setting>
 <setting name="ThreadStackWindowSize">@96|654,620</setting>
@@ -230,7 +230,7 @@
 <setting name="TreeListCustomColorSelection">0</setting>
 <setting name="TreeListCustomRowSize">0</setting>
 <setting name="TreeListEnableHeaderTotals">1</setting>
-<setting name="UpdateInterval">7d0</setting>
+<setting name="UpdateInterval">3e8</setting>
 <setting name="WmiProviderEnableHiddenMenu">0</setting>
 <setting name="WmiProviderEnableTooltipSupport">0</setting>
 <setting name="WmiProviderTreeListColumns">@96|0,0,140|1,1,180|2,2,260|3,3,80</setting>
@@ -350,7 +350,7 @@
 <setting name="ProcessHacker.ExtendedTools.WsWatchListColumns"></setting>
 <setting name="ProcessHacker.ExtendedTools.TrayIconGuids"></setting>
 <setting name="ProcessHacker.ExtendedTools.EnableFahrenheit">0</setting>
-<setting name="ProcessHacker.ExtendedTools.FwTreeColumns">@96|0,0,140|1,1,70|2,2,40|3,3,131|4,4,170|5,5,93|6,6,65|7,7,70|8,8,220|9,9,50|10,10,382|11,11,60|12,12,115</setting>
+<setting name="ProcessHacker.ExtendedTools.FwTreeColumns">@96|0,0,140|1,1,70|2,2,40|3,3,131|4,4,170|5,5,103|6,6,65|7,7,70|8,8,220|9,9,50|10,10,382|11,11,60|12,12,124</setting>
 <setting name="ProcessHacker.ExtendedTools.FwTreeSort">12,2</setting>
 <setting name="ProcessHacker.ExtendedTools.FwIgnorePortScan">0</setting>
 <setting name="ProcessHacker.ExtendedTools.FwIgnoreLoopback">1</setting>
@@ -367,8 +367,7 @@
 <setting name="ProcessHacker.ExtendedTools.PipeEnumWindowPosition">0,0</setting>
 <setting name="ProcessHacker.ExtendedTools.PipeEnumWindowSize">@96|510,380</setting>
 <setting name="ProcessHacker.ExtendedTools.PipeEnumListViewColumns"></setting>
-<setting
-name="ProcessHacker.ExtendedTools.PipeEnumListViewColumnsWithKsi"></setting>
+<setting name="ProcessHacker.ExtendedTools.PipeEnumListViewColumnsWithKsi"></setting>
 <setting name="ProcessHacker.ExtendedTools.FirmwareWindowPosition">0,0</setting>
 <setting name="ProcessHacker.ExtendedTools.FirmwareWindowSize">@96|490,340</setting>
 <setting name="ProcessHacker.ExtendedTools.FirmwareListViewColumns"></setting>
@@ -401,10 +400,8 @@ name="ProcessHacker.ExtendedTools.PipeEnumListViewColumnsWithKsi"></setting>
 <setting name="ProcessHacker.HardwareDevices.GraphicsNodesWindowSize">@96|850,490</setting>
 <setting name="ProcessHacker.HardwareDevices.DeviceTreeAutoRefresh">1</setting>
 <setting name="ProcessHacker.HardwareDevices.DeviceTreeShowDisconnected">0</setting>
-<setting
-name="ProcessHacker.HardwareDevices.DeviceTreeHighlightUpperFiltered">0</setting>
-<setting
-name="ProcessHacker.HardwareDevices.DeviceTreeHighlightLowerFiltered">0</setting>
+<setting name="ProcessHacker.HardwareDevices.DeviceTreeHighlightUpperFiltered">0</setting>
+<setting name="ProcessHacker.HardwareDevices.DeviceTreeHighlightLowerFiltered">0</setting>
 <setting name="ProcessHacker.HardwareDevices.DeviceTreeSort">0,0</setting>
 <setting name="ProcessHacker.HardwareDevices.DeviceTreeColumns">@96|0,0,400|1,1,180|2,2,120|3,3,120|4,4,80|5,5,160</setting>
 <setting name="ProcessHacker.HardwareDevices.ColorDeviceProblem">283cff</setting>
@@ -412,14 +409,12 @@ name="ProcessHacker.HardwareDevices.DeviceTreeHighlightLowerFiltered">0</setting
 <setting name="ProcessHacker.HardwareDevices.ColorDeviceDisconnected">6d6d6d</setting>
 <setting name="ProcessHacker.HardwareDevices.ColorDeviceHighlight">aaff</setting>
 <setting name="ProcessHacker.HardwareDevices.ColorDeviceInterface">ffccaa</setting>
-<setting
-name="ProcessHacker.HardwareDevices.ColorDisabledDeviceInterface">886644</setting>
+<setting name="ProcessHacker.HardwareDevices.ColorDisabledDeviceInterface">886644</setting>
 <setting name="ProcessHacker.HardwareDevices.SortDeviceChildrenByName">1</setting>
 <setting name="ProcessHacker.HardwareDevices.ShowRootDevice">0</setting>
 <setting name="ProcessHacker.HardwareDevices.ShowSoftwareComponents">1</setting>
 <setting name="ProcessHacker.HardwareDevices.ShowDeviceInterfaces">0</setting>
-<setting
-name="ProcessHacker.HardwareDevices.ShowDisabledDeviceInterfaces">0</setting>
+<setting name="ProcessHacker.HardwareDevices.ShowDisabledDeviceInterfaces">0</setting>
 <setting name="ProcessHacker.HardwareDevices.DevicePropertiesPosition">0,0</setting>
 <setting name="ProcessHacker.HardwareDevices.DevicePropertiesSize">@96|300,200</setting>
 <setting name="ProcessHacker.HardwareDevices.DeviceGeneralColumns"></setting>
@@ -427,13 +422,13 @@ name="ProcessHacker.HardwareDevices.ShowDisabledDeviceInterfaces">0</setting>
 <setting name="ProcessHacker.HardwareDevices.DeviceInterfacesColumns"></setting>
 <setting name="ProcessHacker.HardwareDevices.ColorDeviceArrived">ff7f</setting>
 <setting name="ProcessHacker.HardwareDevices.DeviceHighlightingDuration">bb8</setting>
-<setting name="ProcessHacker.NetworkTools.AddressHistory">77.75.77.222\sseznam.cz\s77.75.79.222\s93.99.131.133\s148.251.79.42\s5.59.97.136\s78.141.88.11</setting>
+<setting name="ProcessHacker.NetworkTools.AddressHistory"></setting>
 <setting name="ProcessHacker.NetworkTools.PingWindowPosition">385,238</setting>
 <setting name="ProcessHacker.NetworkTools.PingWindowSize">@96|510,284</setting>
 <setting name="ProcessHacker.NetworkTools.PingMinScaling">c8</setting>
 <setting name="ProcessHacker.NetworkTools.PingTimeout">3e8</setting>
 <setting name="ProcessHacker.NetworkTools.PingSize">20</setting>
-<setting name="ProcessHacker.NetworkTools.TracertWindowPosition">133,163</setting>
+<setting name="ProcessHacker.NetworkTools.TracertWindowPosition">148,161</setting>
 <setting name="ProcessHacker.NetworkTools.TracertWindowSize">@96|868,545</setting>
 <setting name="ProcessHacker.NetworkTools.TracertTreeColumns">@96|0,0,30|1,1,70|2,2,70|3,3,70|4,4,70|5,5,126|6,6,225|7,7,275</setting>
 <setting name="ProcessHacker.NetworkTools.TracertTreeSort">0,1</setting>
@@ -493,8 +488,7 @@ name="ProcessHacker.HardwareDevices.ShowDisabledDeviceInterfaces">0</setting>
 <setting name="KphDisableImageLoadProtection">0</setting>
 <setting name="KsiUnloadOnExitTest">0</setting>
 <setting name="KphRandomizedPoolTag">0</setting>
-<setting
-name="ProcessHacker.ExtendedTools.PipeEnumListViewColumnsWithKph"></setting>
+<setting name="ProcessHacker.ExtendedTools.PipeEnumListViewColumnsWithKph"></setting>
 <setting name="ProcessHacker.HardwareDevices.DevicePropertiesPossition">0,0</setting>
 <setting name="ProcessHacker.WindowExplorer.EnableWindowIcons">0</setting>
 </settings>
