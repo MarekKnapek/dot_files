@@ -1,0 +1,2 @@
+mail.wrap_long_lines false
+plain_text.wrap_long_lines false
