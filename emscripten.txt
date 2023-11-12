@@ -1,0 +1,3 @@
+cd c:\dev\mnt\mkdisk\dev\repos\mk_clib\mk_clib\projects\emscripten
+set path=%path%;c:\dev\mnt\mkdisk\dev\repos\emsdk\upstream\emscripten
+set path=%path%;c:\dev\mnt\mkdisk\dev\repos\emsdk\python\3.9.2-nuget_64bit
