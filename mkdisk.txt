@@ -1,0 +1,215 @@
+VeraCrypt file
+            160 GB
+        163'840 MB
+    167'772'160 kB
+171'798'691'840 B
+
+
+Minus 128 kB VeraCrypt header, minus 128 kB VeraCrypt footer.
+That is 256 kB or 0.25 MB.
+
+
+RAW Volume
+    167'771'904 kB
+171'798'429'696 B
+
+
+Minus 11'712 kB ExFAT format.
+That is 11 MB and 448 kB.
+
+
+ExFAT Volume
+64k cluster
+2'621'253 clusters
+    167'760'192 kB
+171'786'436'608 B
+
+
+Minus 65'536 B file records.
+That is 64 kB or 1 cluster.
+
+
+ExFAT free space
+    167'760'128 kB
+171'786'371'072 B
+
+
+VHD file
+171'786'109'440 B
+
+
+Minus 512 B VHD footer.
+That is 0.5 kB or 1 block.
+
+
+Disk
+        163'828 MB
+    167'759'872 kB
+171'786'108'928 B
+
+
+That is 160 GB minus 12 MB.
+Minus 3 MB MBR table.
+
+
+RAW Volume
+        163'810 MB
+    167'741'440 kB
+171'767'234'560 B
+
+
+That is 160 GB minus 30 MB.
+Minus 1 kB NTFS format.
+
+
+NTFS Volume size
+    167'741'439 kB
+171'767'233'536 B
+
+
+That is 160 GB minus 30 MB minus 1 kB.
+
+
+NTFS Volume free
+    159'289'272 kB
+163'112'214'528 B
+
+
+That is 160 GB minus 8 GB minus 92 MB minus 72 kB.
+
+
+mklink /j c:\dev\mnt\vc\k \\.\Volume{6a17de96-1604-11ee-a6be-c78b5964f66d}\
+mklink /j c:\dev\mnt\vc\l \\.\Volume{3203d3ec-17a0-11ee-a6c2-b31f8521f0f8}\
+mklink /j c:\dev\mnt\mkdisk2 \\.\Volume{fd0545a7-7bf2-4d5c-98c3-884dadf85c69}\
+mklink /d tsclient_c \\tsclient\c\
+format c:\dev\mnt\mkdisk2 /fs:ntfs /a:4096 /c /q /y
+chkdsk c:\dev\mnt\mkdisk2
+mklink /j 5 \\.\HarddiskVolumeShadowCopy5\
+
+
+mklink /j 1 \\.\HarddiskVolumeShadowCopy1\
+mklink /j 2 \\.\HarddiskVolumeShadowCopy2\
+mklink /j 3 \\.\HarddiskVolumeShadowCopy3\
+mklink /j 4 \\.\HarddiskVolumeShadowCopy4\
+mklink /j 5 \\.\HarddiskVolumeShadowCopy5\
+mklink /j 6 \\.\HarddiskVolumeShadowCopy6\
+mklink /j 7 \\.\HarddiskVolumeShadowCopy7\
+mklink /j 8 \\.\HarddiskVolumeShadowCopy8\
+mklink /j 9 \\.\HarddiskVolumeShadowCopy9\
+mklink /j 10 \\.\HarddiskVolumeShadowCopy10\
+mklink /j 11 \\.\HarddiskVolumeShadowCopy11\
+mklink /j 12 \\.\HarddiskVolumeShadowCopy12\
+mklink /j 13 \\.\HarddiskVolumeShadowCopy13\
+mklink /j 14 \\.\HarddiskVolumeShadowCopy14\
+mklink /j 15 \\.\HarddiskVolumeShadowCopy15\
+mklink /j 16 \\.\HarddiskVolumeShadowCopy16\
+mklink /j 17 \\.\HarddiskVolumeShadowCopy17\
+mklink /j 18 \\.\HarddiskVolumeShadowCopy18\
+mklink /j 19 \\.\HarddiskVolumeShadowCopy19\
+mklink /j 20 \\.\HarddiskVolumeShadowCopy20\
+mklink /j 21 \\.\HarddiskVolumeShadowCopy21\
+mklink /j 22 \\.\HarddiskVolumeShadowCopy22\
+mklink /j 23 \\.\HarddiskVolumeShadowCopy23\
+mklink /j 24 \\.\HarddiskVolumeShadowCopy24\
+mklink /j 25 \\.\HarddiskVolumeShadowCopy25\
+mklink /j 26 \\.\HarddiskVolumeShadowCopy26\
+mklink /j 27 \\.\HarddiskVolumeShadowCopy27\
+mklink /j 28 \\.\HarddiskVolumeShadowCopy28\
+mklink /j 29 \\.\HarddiskVolumeShadowCopy29\
+mklink /j 30 \\.\HarddiskVolumeShadowCopy30\
+mklink /j 31 \\.\HarddiskVolumeShadowCopy31\
+mklink /j 32 \\.\HarddiskVolumeShadowCopy32\
+mklink /j 33 \\.\HarddiskVolumeShadowCopy33\
+mklink /j 34 \\.\HarddiskVolumeShadowCopy34\
+mklink /j 35 \\.\HarddiskVolumeShadowCopy35\
+mklink /j 36 \\.\HarddiskVolumeShadowCopy36\
+mklink /j 37 \\.\HarddiskVolumeShadowCopy37\
+mklink /j 38 \\.\HarddiskVolumeShadowCopy38\
+mklink /j 39 \\.\HarddiskVolumeShadowCopy39\
+mklink /j 40 \\.\HarddiskVolumeShadowCopy40\
+mklink /j 41 \\.\HarddiskVolumeShadowCopy41\
+mklink /j 42 \\.\HarddiskVolumeShadowCopy42\
+mklink /j 43 \\.\HarddiskVolumeShadowCopy43\
+mklink /j 44 \\.\HarddiskVolumeShadowCopy44\
+mklink /j 45 \\.\HarddiskVolumeShadowCopy45\
+mklink /j 46 \\.\HarddiskVolumeShadowCopy46\
+mklink /j 47 \\.\HarddiskVolumeShadowCopy47\
+mklink /j 48 \\.\HarddiskVolumeShadowCopy48\
+mklink /j 49 \\.\HarddiskVolumeShadowCopy49\
+mklink /j 50 \\.\HarddiskVolumeShadowCopy50\
+mklink /j 51 \\.\HarddiskVolumeShadowCopy51\
+mklink /j 52 \\.\HarddiskVolumeShadowCopy52\
+mklink /j 53 \\.\HarddiskVolumeShadowCopy53\
+mklink /j 54 \\.\HarddiskVolumeShadowCopy54\
+mklink /j 55 \\.\HarddiskVolumeShadowCopy55\
+mklink /j 56 \\.\HarddiskVolumeShadowCopy56\
+mklink /j 57 \\.\HarddiskVolumeShadowCopy57\
+mklink /j 58 \\.\HarddiskVolumeShadowCopy58\
+mklink /j 59 \\.\HarddiskVolumeShadowCopy59\
+mklink /j 60 \\.\HarddiskVolumeShadowCopy60\
+mklink /j 61 \\.\HarddiskVolumeShadowCopy61\
+mklink /j 62 \\.\HarddiskVolumeShadowCopy62\
+mklink /j 63 \\.\HarddiskVolumeShadowCopy63\
+mklink /j 64 \\.\HarddiskVolumeShadowCopy64\
+mklink /j 65 \\.\HarddiskVolumeShadowCopy65\
+mklink /j 66 \\.\HarddiskVolumeShadowCopy66\
+mklink /j 67 \\.\HarddiskVolumeShadowCopy67\
+mklink /j 68 \\.\HarddiskVolumeShadowCopy68\
+mklink /j 69 \\.\HarddiskVolumeShadowCopy69\
+mklink /j 70 \\.\HarddiskVolumeShadowCopy70\
+mklink /j 71 \\.\HarddiskVolumeShadowCopy71\
+mklink /j 72 \\.\HarddiskVolumeShadowCopy72\
+mklink /j 73 \\.\HarddiskVolumeShadowCopy73\
+mklink /j 74 \\.\HarddiskVolumeShadowCopy74\
+mklink /j 75 \\.\HarddiskVolumeShadowCopy75\
+mklink /j 76 \\.\HarddiskVolumeShadowCopy76\
+mklink /j 77 \\.\HarddiskVolumeShadowCopy77\
+mklink /j 78 \\.\HarddiskVolumeShadowCopy78\
+mklink /j 79 \\.\HarddiskVolumeShadowCopy79\
+mklink /j 80 \\.\HarddiskVolumeShadowCopy80\
+mklink /j 81 \\.\HarddiskVolumeShadowCopy81\
+mklink /j 82 \\.\HarddiskVolumeShadowCopy82\
+mklink /j 83 \\.\HarddiskVolumeShadowCopy83\
+mklink /j 84 \\.\HarddiskVolumeShadowCopy84\
+mklink /j 85 \\.\HarddiskVolumeShadowCopy85\
+mklink /j 86 \\.\HarddiskVolumeShadowCopy86\
+mklink /j 87 \\.\HarddiskVolumeShadowCopy87\
+mklink /j 88 \\.\HarddiskVolumeShadowCopy88\
+mklink /j 89 \\.\HarddiskVolumeShadowCopy89\
+mklink /j 90 \\.\HarddiskVolumeShadowCopy90\
+mklink /j 91 \\.\HarddiskVolumeShadowCopy91\
+mklink /j 92 \\.\HarddiskVolumeShadowCopy92\
+mklink /j 93 \\.\HarddiskVolumeShadowCopy93\
+mklink /j 94 \\.\HarddiskVolumeShadowCopy94\
+mklink /j 95 \\.\HarddiskVolumeShadowCopy95\
+mklink /j 96 \\.\HarddiskVolumeShadowCopy96\
+mklink /j 97 \\.\HarddiskVolumeShadowCopy97\
+mklink /j 98 \\.\HarddiskVolumeShadowCopy98\
+mklink /j 99 \\.\HarddiskVolumeShadowCopy99\
+
+mklink /j a \\.\VeraCryptVolumeA\
+mklink /j b \\.\VeraCryptVolumeB\
+mklink /j c \\.\VeraCryptVolumeC\
+mklink /j d \\.\VeraCryptVolumeD\
+mklink /j e \\.\VeraCryptVolumeE\
+mklink /j f \\.\VeraCryptVolumeF\
+mklink /j g \\.\VeraCryptVolumeG\
+mklink /j h \\.\VeraCryptVolumeH\
+mklink /j i \\.\VeraCryptVolumeI\
+mklink /j j \\.\VeraCryptVolumeJ\
+mklink /j k \\.\VeraCryptVolumeK\
+mklink /j l \\.\VeraCryptVolumeL\
+mklink /j m \\.\VeraCryptVolumeM\
+mklink /j n \\.\VeraCryptVolumeN\
+mklink /j o \\.\VeraCryptVolumeO\
+mklink /j p \\.\VeraCryptVolumeP\
+mklink /j q \\.\VeraCryptVolumeQ\
+mklink /j r \\.\VeraCryptVolumeR\
+mklink /j s \\.\VeraCryptVolumeS\
+mklink /j t \\.\VeraCryptVolumeT\
+mklink /j u \\.\VeraCryptVolumeU\
+mklink /j v \\.\VeraCryptVolumeV\
+mklink /j w \\.\VeraCryptVolumeW\
+mklink /j x \\.\VeraCryptVolumeX\
+mklink /j y \\.\VeraCryptVolumeY\
+mklink /j z \\.\VeraCryptVolumeZ\
