@@ -1,0 +1,11 @@
+“%s\%s\%08X%x\%s” % (serverName, peName, timeStamp, imageSize, peName)
+“%s\%s\%s%x\%s” % (serverPath, pdbName, guid, age, pdbName)
+
+http://msdl.microsoft.com/download/symbols/ntoskrnl.exe/9729528B1047000/ntoskrnl.exe
+http://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/53B8A0B36FAD78690204DA3CE552A05C1/ntkrnlmp.pdb
+
+http://msdl.microsoft.com/download/symbols/ntoskrnl.exe/3B845E5D1047000/ntoskrnl.exe
+http://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/CEB3272F2DA918532E985797AA1099AD1/ntkrnlmp.pdb
+
+http://msdl.microsoft.com/download/symbols/ntoskrnl.exe/F290800D1047000/ntoskrnl.exe
+http://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/B3ED6FA26A1FD6DF6A34DF3B125CAFE81/ntkrnlmp.pdb
