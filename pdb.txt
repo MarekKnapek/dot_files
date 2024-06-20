@@ -1,11 +1,20 @@
 “%s\%s\%08X%x\%s” % (serverName, peName, timeStamp, imageSize, peName)
 “%s\%s\%s%x\%s” % (serverPath, pdbName, guid, age, pdbName)
 
-http://msdl.microsoft.com/download/symbols/ntoskrnl.exe/9729528B1047000/ntoskrnl.exe
-http://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/53B8A0B36FAD78690204DA3CE552A05C1/ntkrnlmp.pdb
-
-http://msdl.microsoft.com/download/symbols/ntoskrnl.exe/3B845E5D1047000/ntoskrnl.exe
-http://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/CEB3272F2DA918532E985797AA1099AD1/ntkrnlmp.pdb
-
-http://msdl.microsoft.com/download/symbols/ntoskrnl.exe/F290800D1047000/ntoskrnl.exe
-http://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/B3ED6FA26A1FD6DF6A34DF3B125CAFE81/ntkrnlmp.pdb
+https://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/53B8A0B36FAD78690204DA3CE552A05C1/ntkrnlmp.pdb
+https://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/66546C893F1136BF8732FF5773F692651/ntkrnlmp.pdb
+https://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/738ED8FF966E8502EFE17095B9F1F5481/ntkrnlmp.pdb
+https://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/75F58E3898196557854FDC4B01A7AA571/ntkrnlmp.pdb
+https://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/B3ED6FA26A1FD6DF6A34DF3B125CAFE81/ntkrnlmp.pdb
+https://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/BA02CB8F36DB1DACC5DB9F1ED97AAC961/ntkrnlmp.pdb
+https://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/C339CA26E8E26BB7F4C9BB7B8244A46A1/ntkrnlmp.pdb
+https://msdl.microsoft.com/download/symbols/ntkrnlmp.pdb/CEB3272F2DA918532E985797AA1099AD1/ntkrnlmp.pdb
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/1D9F9DE41047000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/3A6EB0D31047000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/3B845E5D1047000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/5E236E981047000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/6855f5581047000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/8DB688181048000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/9729528B1047000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/A7975A9EA6D000/ntoskrnl.exe
+https://msdl.microsoft.com/download/symbols/ntoskrnl.exe/F290800D1047000/ntoskrnl.exe
