@@ -2,3 +2,4 @@ find . -name xxx
 grep -rni "string" *
 FOO=bar bash -c 'somecommand someargs | somecommand2'
 cmake -DCMAKE_INSTALL_PREFIX=/path/to/some/where .
+sudo netstat -tunlp
