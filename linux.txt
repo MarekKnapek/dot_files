@@ -3,7 +3,19 @@ grep -rni "string" *
 FOO=bar bash -c 'somecommand someargs | somecommand2'
 cmake -DCMAKE_INSTALL_PREFIX=/path/to/some/where .
 sudo netstat -tunlp
-ssh -L 7070:127.0.0.1:7070 -L 4040:127.0.0.1:4444 -L 7653:127.0.0.1:7656 -L 8003:127.0.0.1:8002 -N mk@wk
+
+
+ssh \
+-L 4040:127.0.0.1:4444 \
+-L 6669:127.0.0.1:6669 \
+-L 7000:127.0.0.1:7000 \
+-L 7070:127.0.0.1:7070 \
+-L 7653:127.0.0.1:7656 \
+-L 8003:127.0.0.1:8002 \
+-L 8654:127.0.0.1:7654 \
+-N mk@wk
+
+
 
 https://stackoverflow.com/questions/10377823/
 screen -S main
