@@ -11,8 +11,6 @@ http://reg.i2p/export/hosts-all.txt
 http://reg.i2p/export/hosts-basic.txt
 http://reg.i2p/export/hosts.txt
 http://reg.i2p/hosts.txt
-http://reg.rus.i2p/public/a-hosts.txt
-http://rus.i2p/hosts.txt
 http://skank.i2p/hosts.txt
 http://skank.i2p/static/hosts.txt
 http://stats.i2p/cgi-bin/newhosts.txt
