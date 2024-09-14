@@ -1,0 +1,2 @@
+/msg NickServ IDENTIFY name password
+/msg NickServ REGAIN name password
