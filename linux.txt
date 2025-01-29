@@ -3,6 +3,9 @@ grep -rni "string" *
 FOO=bar bash -c 'somecommand someargs | somecommand2'
 cmake -DCMAKE_INSTALL_PREFIX=/path/to/some/where .
 sudo netstat -tunlp
+lsof -a -p 1234
+ncdu
+git config --local http.proxy "http://proxy.mycompany:80"
 
 
 ssh \
@@ -10,9 +13,14 @@ ssh \
 -L 6669:127.0.0.1:6669 \
 -L 7000:127.0.0.1:7000 \
 -L 7070:127.0.0.1:7070 \
--L 7653:127.0.0.1:7656 \
--L 8003:127.0.0.1:8002 \
+ \
 -L 8654:127.0.0.1:7654 \
+ \
+-L 7667:127.0.0.1:7667 \
+-L 9654:127.0.1.1:9654 \
+ \
+-L 9002:127.0.0.1:8002 \
+-L 9003:127.0.0.1:8003 \
 -N mk@wk
 
 
