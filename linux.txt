@@ -6,6 +6,8 @@ sudo netstat -tunlp
 lsof -a -p 1234
 ncdu
 git config --local http.proxy "http://proxy.mycompany:80"
+systemd-run --user --scope -p MemoryMax=2048M -p MemorySwapMax=2048M xxx
+systemd-run --scope -p MemoryHigh=2000M -p MemoryMax=2G -p MemorySwapMax=2G xxx
 
 
 ssh \
