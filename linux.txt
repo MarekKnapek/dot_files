@@ -9,6 +9,10 @@ git config --local http.proxy "http://proxy.mycompany:80"
 systemd-run --user --scope -p MemoryMax=2048M -p MemorySwapMax=2048M xxx
 systemd-run --scope -p MemoryHigh=2000M -p MemoryMax=2G -p MemorySwapMax=2G xxx
 
+curl proxy
+export http_proxy=http://your.proxy.server:port
+set http_proxy=http://127.0.0.1:4444
+
 
 ssh \
 -L 4040:127.0.0.1:4444 \
@@ -25,6 +29,7 @@ ssh \
 -L 9003:127.0.0.1:8003 \
 -N mk@wk
 
+ssh -L 8888:127.0.0.1:4444 -L 6669:127.0.0.1:6669 -L 7000:127.0.0.1:7000 -L 7070:127.0.0.1:7070 -L 8654:127.0.0.1:7654 -L 7667:127.0.0.1:7667 -L 9654:127.0.1.1:9654 -L 9002:127.0.0.1:8002 -L 9003:127.0.0.1:8003 -N mk@wk
 
 
 https://stackoverflow.com/questions/10377823/
