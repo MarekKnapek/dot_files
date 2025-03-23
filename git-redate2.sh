@@ -95,7 +95,7 @@ if [ $# -ne 2 ] ; then
 	fn_help_and_exit
 fi
 
-var_count=$1
+var_count=$( git log --oneline HEAD ^"$1" | wc -l  )
 var_date=$2
 
 var_re_is_num="^[1-9][0-9]*$"
