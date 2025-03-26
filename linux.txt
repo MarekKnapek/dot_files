@@ -36,3 +36,7 @@ https://stackoverflow.com/questions/10377823/
 screen -S main
 screen -dmS SomeName
 screen -r SomeName
+
+break __asan_report_error
+break __asan::ReportGenericError
+break __sanitizer::Die
