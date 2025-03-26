@@ -1,0 +1,48 @@
+if [[ $TERM = screen ]]; then
+	export TERM=screen.xterm-256color
+fi
+
+function mk_timer_start
+{
+	mk_timer_val=${mk_timer_val:-$SECONDS}
+}
+
+function mk_timer_stop
+{
+	mk_timer_seconds=$(($SECONDS - $mk_timer_val))
+	mk_timer_minutes=$(( $mk_timer_seconds / 60  ))
+	mk_timer_seconds=$(( $mk_timer_seconds % 60  ))
+	mk_timer_hours=$(( $mk_timer_minutes / 60  ))
+	mk_timer_minutes=$(( $mk_timer_minutes % 60  ))
+	mk_timer_days=$(( $mk_timer_hours / 24  ))
+	mk_timer_hours=$(( $mk_timer_hours % 24  ))
+	if [[ ${#mk_timer_hours} -lt 2 ]] ; then mk_timer_hours="0${mk_timer_hours}"; fi
+	if [[ ${#mk_timer_minutes} -lt 2 ]] ; then mk_timer_minutes="0${mk_timer_minutes}"; fi
+	if [[ ${#mk_timer_seconds} -lt 2 ]] ; then mk_timer_seconds="0${mk_timer_seconds}"; fi
+	mk_timer_show="${mk_timer_days}+${mk_timer_hours}:${mk_timer_minutes}:${mk_timer_seconds}"
+	unset mk_timer_val
+	mk_git=$(__git_ps1)
+}
+
+trap 'mk_timer_start' DEBUG
+PROMPT_COMMAND=mk_timer_stop
+
+PS1="" # clear
+PS1="${PS1}""\[\033[32m\]" # green
+PS1="${PS1}""\u" # user name
+PS1="$PS1""\[\033[0m\]" # white
+PS1="${PS1}""@" # @
+PS1="${PS1}""\[\033[32m\]" # green
+PS1="${PS1}""\h" # host name
+PS1="$PS1""\[\033[0m\]" # white
+PS1="${PS1}"" " # space
+PS1="${PS1}"'[${mk_timer_show}]' # time
+PS1="${PS1}"'[${?}]' # last error
+PS1="${PS1}"" " # space
+PS1="$PS1""\[\033[33m\]" # yellow
+PS1="$PS1""\w" # current working directory
+PS1="$PS1""\[\033[36m\]" # cyan
+PS1="${PS1}"'${mk_git}' # git
+PS1="$PS1""\n" # new line
+PS1="$PS1""\[\033[0m\]" # white
+PS1="$PS1""$ " # $ space
