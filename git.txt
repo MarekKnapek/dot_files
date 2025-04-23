@@ -5,3 +5,4 @@ git config --global --add safe.directory "*"
 git config --global --unset credential.helper
 git config --global credential.helper manager
 git config --global gc.auto 0
+git update-index --chmod=+x file.txt
