@@ -1,0 +1,11 @@
+jdb -classpath i2psnark.jar org.klomp.snark.standalone.RunStandalone
+
+stop in MyClass.<clinit>
+stop in MyClass.<clinit>
+stop in java.lang.Throwable.<clinit>
+
+
+stop at MyClass:22 (sets a breakpoint at the first instruction for line 22 of the source file containing MyClass)
+stop in java.lang.String.length (sets a breakpoint at the beginnig of the method java.lang.String.length)
+stop in MyClass.<init> (<init> identifies the MyClass constructor)
+stop in MyClass.<clinit> (<clinit> identifies the static initialization code for MyClass)
