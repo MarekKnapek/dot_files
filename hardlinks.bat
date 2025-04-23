@@ -9,16 +9,16 @@ goto mk_args_5_or_more
 goto mk_end
 
 :mk_args_0
-echo "Call with two parameters."
+echo "Call with two parameters, src and dst."
 goto mk_end
 
 :mk_args_1
-echo "Call with two parameters."
+echo "Call with two parameters, src and dst."
 goto mk_end
 
 :mk_args_2
 pushd "%~f1"
-if %%eerrorlevel%%==1 goto mk_end
+if %%errorlevel%%==1 goto mk_end
 for %%i in (*) do call "%~f0" "/cmd_file" "%~1" "%~2" "%%i"
 for /d %%i in (*) do call "%~f0" "/cmd_dir" "%~1\%%i" "%~2\%%i"
 popd
@@ -34,7 +34,7 @@ if "%~1"=="/cmd_file" goto mk_cmd_file
 goto mk_end
 
 :mk_args_5_or_more
-echo "Call with two parameters."
+echo "Call with two parameters, src and dst."
 goto mk_end
 
 :mk_cmd_file
