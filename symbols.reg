@@ -1,4 +1,4 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Environment]
-"_NT_SYMBOL_PATH"="SRV*c:\\dev\\mnt\\mkdisk\\dev\\symbols*https://msdl.microsoft.com/download/symbols"
+"_NT_SYMBOL_PATH"="SRV*c:\\dev\\mnt\\mkdisk\\dev\\\dev\symbols*https://msdl.microsoft.com/download/symbols"
