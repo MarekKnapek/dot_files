@@ -17,11 +17,17 @@ echo "Call with two parameters, src and dst."
 goto mk_end
 
 :mk_args_2
+if exist "%~f1\*" goto mk_args_2_dir
+goto mk_args_2_file
+:mk_args_2_dir
 pushd "%~f1"
 if %%errorlevel%%==1 goto mk_end
 for %%i in (*) do call "%~f0" "/cmd_file" "%~1" "%~2" "%%i"
 for /d %%i in (*) do call "%~f0" "/cmd_dir" "%~1\%%i" "%~2\%%i"
 popd
+goto mk_end
+:mk_args_2_file
+mklink /h "%~f2" "%~f1"
 goto mk_end
 
 :mk_args_3
