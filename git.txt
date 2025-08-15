@@ -1,8 +1,47 @@
 git config --local core.autocrlf false
 git config --local user.name "Marek Knápek"
 git config --local user.email knapek.mar@gmail.com
+
 git config --global --add safe.directory "*"
 git config --global --unset credential.helper
+git config --global core.autocrlf false
 git config --global credential.helper manager
 git config --global gc.auto 0
+git config --global worktree.useRelativePaths true
+
+git config --local core.autocrlf false
+git config --local core.compression 9
+git config --local core.looseCompression 9
+git config --local extensions.relativeWorktrees true
+git config --local gc.auto 0
+git config --local pack.compression 9
+git config --local --unset-all remote.origin.fetch
+git config --local --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+git config --local --add remote.origin.fetch +refs/tags/*:refs/tags/origin/*
+git config --local remote.origin.tagOpt --no-tags
+
 git update-index --chmod=+x file.txt
+
+git config --local remote.origin.tagopt --tags
+git config --local remote.origin.prune true
+git config --local remote.origin.pruneTags true
+
+git config --local core.compression 9
+git config --local core.looseCompression 9
+git config --local pack.compression 9
+git repack -a -d -F
+git gc --aggressive --cruft --prune --no-quiet
+
+git config --local core.compression 9; git config --local core.looseCompression 9; git config --local pack.compression 9; git repack -a -d -F; git gc --aggressive --cruft --prune --no-quiet
+
+git worktree add --track -b master ../gitextensions origin/master --relative-paths
+
+git push origin '*:*'
+git push origin --all
+git push origin --tags
+
+[remote "origin"]
+	url = https://JohnDoe@github.com/JohnDoe/repo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	fetch = +refs/tags/*:refs/tags/origin/*
+	tagOpt = --no-tags
