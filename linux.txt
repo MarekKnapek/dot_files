@@ -14,6 +14,9 @@ export http_proxy=http://your.proxy.server:port
 set http_proxy=http://127.0.0.1:4444
 
 
+curl --proxy http://127.0.0.1:4444 http://example.com
+
+
 ssh \
 -L 4040:127.0.0.1:4444 \
 -L 6669:127.0.0.1:6669 \
@@ -40,3 +43,5 @@ screen -r SomeName
 break __asan_report_error
 break __asan::ReportGenericError
 break __sanitizer::Die
+
+explorer.exe!CImmersiveWatermark::_s_NotificationWindowDisplay

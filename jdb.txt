@@ -1,5 +1,10 @@
 jdb -classpath i2psnark.jar org.klomp.snark.standalone.RunStandalone
 
+
+stop in org.klomp.snark.SnarkManager.stopAllTorrents
+stop in org.klomp.snark.SnarkManager.<init>
+
+
 stop in MyClass.<clinit>
 stop in MyClass.<clinit>
 stop in java.lang.Throwable.<clinit>
