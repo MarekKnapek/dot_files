@@ -1,0 +1,46 @@
+http://tracker2.postman.i2p/announce.php
+
+http://omitracker.i2p/announce.php
+http://opentracker.dg2.i2p/a
+http://opentracker.eeptorrent.i2p/a
+http://opentracker.fattydove.i2p/a
+http://opentracker.r4sas.i2p/a
+http://opentracker.simp.i2p/a
+http://opentracker.skank.i2p/a
+
+http://6kw6voy3v5jzmkbg4i3rlqjysre4msgarpkpme6mt5u2jw33nffa.b32.i2p/announce
+
+udp://opentracker.skank.i2p:6969/
+udp://opentracker.simp.i2p:6969/
+
+http://6a4kxkg5wp33p25qqhgwl6sj4yh4xuf5b3p3qldwgclebchm3eea.b32.i2p/announce.php
+
+http://a5ruhsktpdhfk5w46i6yf6oqovgdlyzty7ku6t5yrrpf4qedznjq.b32.i2p/announce.php
+http://w7tpbzncbcocrqtwwm3nezhnnsw4ozadvi2hmvzdhrqzfxfum7wa.b32.i2p/a
+http://bjnkpy2rpwwlyjgmxeolt2cnp7h4oe437mtd54hb3pve3gmjqp5a.b32.i2p/a
+http://svece3bxv4vqlt2zuut5ww4ztkwunfcnab55pmnjjb6zfei3noha.b32.i2p/a
+http://punzipidirfqspstvzpj6gb4tkuykqp6quurj6e23bgxcxhdoe7q.b32.i2p/a
+http://wc4sciqgkceddn6twerzkfod6p2npm733p7z3zwsjfzhc4yulita.b32.i2p/a
+http://by7luzwhx733fhc5ug2o75dcaunblq2ztlshzd7qvptaoa73nqua.b32.i2p/a
+
+udp://wc4sciqgkceddn6twerzkfod6p2npm733p7z3zwsjfzhc4yulita.b32.i2p:6969/
+udp://by7luzwhx733fhc5ug2o75dcaunblq2ztlshzd7qvptaoa73nqua.b32.i2p:6969/
+
+
+
+
+
+
+
+
+
+
+http://tracker2.postman.i2p/announce.php   <--->   http://6a4kxkg5wp33p25qqhgwl6sj4yh4xuf5b3p3qldwgclebchm3eea.b32.i2p/announce.php
+
+http://omitracker.i2p/announce.php   <--->   http://a5ruhsktpdhfk5w46i6yf6oqovgdlyzty7ku6t5yrrpf4qedznjq.b32.i2p/announce.php
+http://opentracker.dg2.i2p/a   <--->   http://w7tpbzncbcocrqtwwm3nezhnnsw4ozadvi2hmvzdhrqzfxfum7wa.b32.i2p/a
+http://opentracker.eeptorrent.i2p/a   <--->   http://bjnkpy2rpwwlyjgmxeolt2cnp7h4oe437mtd54hb3pve3gmjqp5a.b32.i2p/a
+http://opentracker.fattydove.i2p/a   <--->   http://svece3bxv4vqlt2zuut5ww4ztkwunfcnab55pmnjjb6zfei3noha.b32.i2p/a
+http://opentracker.r4sas.i2p/a   <--->   http://punzipidirfqspstvzpj6gb4tkuykqp6quurj6e23bgxcxhdoe7q.b32.i2p/a
+http://opentracker.simp.i2p/a   <--->   http://wc4sciqgkceddn6twerzkfod6p2npm733p7z3zwsjfzhc4yulita.b32.i2p/a
+http://opentracker.skank.i2p/a   <--->   http://by7luzwhx733fhc5ug2o75dcaunblq2ztlshzd7qvptaoa73nqua.b32.i2p/a
