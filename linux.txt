@@ -45,3 +45,8 @@ break __asan::ReportGenericError
 break __sanitizer::Die
 
 explorer.exe!CImmersiveWatermark::_s_NotificationWindowDisplay
+
+malina.tail2320ea.ts.net
+
+sudo nice -n -20 xxx
+for i in {1..5}; do echo "Hi, $i"; done
