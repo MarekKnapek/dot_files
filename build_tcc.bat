@@ -35,7 +35,7 @@ goto mk_end
 if exist tinycc goto mk_git_dir_y
 goto mk_git_dir_n
 :mk_git_dir_n
-git clone https://repo.or.cz/tinycc.git || goto mk_fail
+git clone https://repo.or.cz/tinycc.git --quiet || goto mk_fail
 goto mk_git_dir_y
 :mk_git_dir_y
 goto mk_end
@@ -85,6 +85,7 @@ call build-tcc.bat -c tcc -t 64 -i ..\..\tcc_64_tcc1_tcc2 -b ..\..\tcc_64_tcc1_t
 @echo off
 cd .. || goto mk_fail
 cd .. || goto mk_fail
+rmdir /s /q tcc_64_cl_tcc1
 goto mk_end
 
 :mk_build_64_tcc2_tcc3
@@ -95,6 +96,7 @@ call build-tcc.bat -c tcc -t 64 -i ..\..\tcc_64_tcc2_tcc3 -b ..\..\tcc_64_tcc2_t
 @echo off
 cd .. || goto mk_fail
 cd .. || goto mk_fail
+rmdir /s /q tcc_64_tcc1_tcc2
 goto mk_end
 
 :mk_build_64_tcc3_tcc4
@@ -105,6 +107,8 @@ call build-tcc.bat -c tcc -t 64 -i ..\..\tcc_64_tcc3_tcc4 -b ..\..\tcc_64_tcc3_t
 @echo off
 cd .. || goto mk_fail
 cd .. || goto mk_fail
+rmdir /s /q tcc_64_tcc2_tcc3
+ren tcc_64_tcc3_tcc4 tcc64
 goto mk_end
 
 
@@ -143,6 +147,7 @@ call build-tcc.bat -c tcc -t 32 -i ..\..\tcc_32_tcc1_tcc2 -b ..\..\tcc_32_tcc1_t
 @echo off
 cd .. || goto mk_fail
 cd .. || goto mk_fail
+rmdir /s /q tcc_32_cl_tcc1
 goto mk_end
 
 :mk_build_32_tcc2_tcc3
@@ -153,6 +158,7 @@ call build-tcc.bat -c tcc -t 32 -i ..\..\tcc_32_tcc2_tcc3 -b ..\..\tcc_32_tcc2_t
 @echo off
 cd .. || goto mk_fail
 cd .. || goto mk_fail
+rmdir /s /q tcc_32_tcc1_tcc2
 goto mk_end
 
 :mk_build_32_tcc3_tcc4
@@ -163,6 +169,8 @@ call build-tcc.bat -c tcc -t 32 -i ..\..\tcc_32_tcc3_tcc4 -b ..\..\tcc_32_tcc3_t
 @echo off
 cd .. || goto mk_fail
 cd .. || goto mk_fail
+rmdir /s /q tcc_32_tcc2_tcc3
+ren tcc_32_tcc3_tcc4 tcc32
 goto mk_end
 
 
