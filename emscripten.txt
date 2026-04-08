@@ -1,10 +1,17 @@
-cd c:\dev\mnt\mkdisk\dev\repos\mk_clib\mk_clib\projects\emscripten
-
-
+set path=%path%;C:\dev\mnt\mkdisk\dev\repos\emsdk
+set path=%path%;C:\dev\mnt\mkdisk\dev\repos\emsdk\upstream\emscripten
+set path=%path%;C:\dev\mnt\mkdisk\dev\repos\emsdk\node\22.16.0_64bit\bin
 set path=c:\dev\mnt\mkdisk\dev\repos\emsdk\python\3.13.3_64bit;%path%
 
 
+
+
+cd c:\dev\mnt\mkdisk\dev\repos\mk_clib\mk_clib\projects\emscripten
 set path=%path%;c:\dev\mnt\mkdisk\dev\repos\emsdk\emscripten\main
+
+
+
+
 set path=%path%;c:\dev\mnt\mkdisk\dev\repos\emsdk\upstream\emscripten
 set path=%path%;c:\dev\mnt\mkdisk\dev\repos\emsdk\python\3.9.2-nuget_64bit
 set path="c:\dev\mnt\mkdisk\dev\programy\PortablePython\Portable Python-3.10.5 x64\App\Python";%path%
