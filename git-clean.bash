@@ -32,7 +32,7 @@ git fetch --all --force --prune
 
 mk_gh_remote_branch="$(git symbolic-ref --short refs/remotes/gh/HEAD)"
 mk_gh_branch="${mk_gh_remote_branch#*/}"
-git worktree add --orphan -b ${mk_gh_branch} ../STL --relative-paths
+git worktree add --orphan -b ${mk_gh_branch} ../${mk_gh_repo} --relative-paths
 
 cd ../${mk_gh_repo}
 git reset --hard gh/${mk_gh_branch}
