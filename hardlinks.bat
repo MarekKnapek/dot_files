@@ -55,10 +55,15 @@ goto mk_end
 
 :mk_args_2_file
 mklink /h "%~3" "%~2" > nul 2>&1
+if errorlevel 1 goto mk_mklink_fail
 goto mk_end
 
 :mk_not_found_2
 echo File %~f2 does not exist.
+goto mk_fail
+
+:mk_mklink_fail
+echo Could not create link "%~2" -^> "%~3".
 goto mk_fail
 
 :mk_fail
