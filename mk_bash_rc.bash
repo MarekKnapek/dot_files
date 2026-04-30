@@ -99,21 +99,7 @@ function mk_timer_stop
 	unset mk_timer_before
 }
 
-function mk_git_prompt()
-{
-	local mk_branch_path=""
-	local mk_branch_name=""
-
-	mk_branch_path="$(git symbolic-ref HEAD 2> /dev/null)"
-	if [ ${?} -ne 0 ]; then
-		echo "";
-	else
-		mk_branch_name="$(echo "${mk_branch_path}" | cut -d "/" -f3)";
-		echo " (${mk_branch_name})";
-	fi
-}
-
-function mk_git_prompt()
+function mk_git_prompt
 {
 	local mk_branch_path=""
 	local mk_branch_name=""
