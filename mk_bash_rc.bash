@@ -132,7 +132,11 @@ function mk_make_prompt
 	prompt="${prompt}""\[\e[0m\]" # reset
 	prompt="${prompt}"" " # space
 	prompt="${prompt}"'[${mk_timer_display}]' # time
-	prompt="${prompt}"'[${?}]' # last error
+	prompt="${prompt}"'[' # open [
+	prompt="${prompt}""\[\e[\$(( \${?} == 0 ? 32 : 31 ))m\]" # green / red
+	prompt="${prompt}"'${?}' # last error
+	prompt="${prompt}""\[\e[0m\]" # reset
+	prompt="${prompt}"']' # close ]
 	prompt="${prompt}"" " # space
 	prompt="${prompt}""\[\e[33m\]" # yellow
 	prompt="${prompt}""\w" # current working directory
@@ -143,4 +147,9 @@ function mk_make_prompt
 	prompt="${prompt}""\\n" # nl
 	prompt="${prompt}""\\$ " # $ space
 	printf "${prompt}"
+}
+
+function mk_set_prompt
+{
+	PS1="$(mk_make_prompt)"
 }
